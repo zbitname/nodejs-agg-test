@@ -1,3 +1,13 @@
+# Как пользоваться:
+```bash
+git clone https://github.com/zbitname/nodejs-agg-test.git
+cd nodejs-agg-test
+npm install
+# Решаете задачу
+tar cvzf nodejs-agg-test-resolved.tar.gz *
+# Отправляете получившийся архив по адресу denis.bezrukov@e-azbuka.ru
+```
+
 # Задачи:
 
 1) Ответ сервера на любой метод должен возвращать ```id``` вместо ```_id``` и нельзя, чтобы в ответ попал ```SubItem.secret```. При решении этой задачи по возможности не использовать циклы в контроллерах и моделях.
